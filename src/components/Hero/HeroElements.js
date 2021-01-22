@@ -48,7 +48,6 @@ export const HeroH1 = styled.h1 `
     font-weight: 800;
     margin-bottom: 10px;
     color: white;
-    text-shadow: 3px 3px #FF6363;
     color: ${({color}) => (color ? '#fff' : '#000')};
 `
 
