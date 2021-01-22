@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 export const HeroSection = styled.section `
     width: 100%;
     background: ${({bg}) => (bg ? '#3f3d56' : '#fff')};
-    color: ${({color}) => (color ? '#fff' : '#000')};
+    color: ${({bg}) => (bg ? '#fff' : '#000')};
 `
 
 export const HeroContainer = styled.div `
@@ -36,32 +36,29 @@ export const HeroColumnLeft = styled.div `
     }
 `
 
-export const HeroSpan = styled.span `
+export const HeroSpan = styled.p `
     text-transform: uppercase;
     font-size: 12px;
-    color: ${({color}) => (color ? '#fff' : '#000')};
     letter-spacing: 5px;
+    color: #FF6363
 `
 
 export const HeroH1 = styled.h1 `
     font-size: clamp(2.8rem, 100vw, 3.5rem);
     font-weight: 800;
     margin-bottom: 10px;
-    color: white;
-    color: ${({color}) => (color ? '#fff' : '#000')};
 `
 
 export const HeroP = styled.p `
     margin-bottom: 20px;
-    color: ${({color}) => (color ? '#fff' : '#000')};
 `
 
 export const HeroButton = styled(Link) `
     text-decoration: none;
     padding: 12px 20px;
 
-    color: ${({color}) => (color ? '#fff' : '#000')};
-    border: ${({color}) => (color ? '2px solid white' : '2px solid black')};
+    border: 2px solid #FF6363;
+    color: #FF6363;
 `
 
 export const HeroColumnRight = styled.div `

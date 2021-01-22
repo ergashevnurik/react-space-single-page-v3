@@ -7,10 +7,10 @@ const Hero = ({span, h1, p, buttonLink, buttonLabel, img, alt, reverse, bg, colo
             <HeroContainer>
                 <HeroRow>
                     <HeroColumnLeft reverse={reverse}>
-                        <HeroSpan color={color}>{span}</HeroSpan>
-                        <HeroH1 color={color}>{h1}</HeroH1>
-                        <HeroP color={color}>{p}</HeroP>
-                        <HeroButton color={color} to={buttonLink}>{buttonLabel}</HeroButton>
+                        <HeroSpan>{span}</HeroSpan>
+                        <HeroH1>{h1}</HeroH1>
+                        <HeroP>{p}</HeroP>
+                        <HeroButton to={buttonLink}>{buttonLabel}</HeroButton>
                     </HeroColumnLeft>
                     <HeroColumnRight reverse={reverse}>
                         <HeroImage src={img} alt={alt}></HeroImage>
