@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 
 export const NavbarSection = styled.nav `
     width: 100%;
+    border-bottom: 2px solid #FF6363;
 `
 
 export const NavbarContainer = styled.div `
